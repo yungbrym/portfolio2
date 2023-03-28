@@ -14,7 +14,7 @@ section
 	align-items: center;
 	min-height: 100vh;
 	padding: 100px;
-	background: #d3cece;
+	background: #e3d2d8;
 	transition: 0.5s;
 }
 section.night 
@@ -109,6 +109,9 @@ header .toggle_btn{
     align-items: center;
     justify-content: center;
 }
+.mobile-header{
+	display: none;
+}
 @media(max-width:990px){
     header ul, .colors, .men{
         display: none;
@@ -116,6 +119,18 @@ header .toggle_btn{
     .dropdown_menu{
         display: block;
     }
+	.content h2, h3,p{
+		display: none;
+	}
+	.men{
+		display: block;
+		height: 50vw;
+		width: 50vw;
+	}
+	.mobile-header{
+		display: block;
+		max-width: 500px;
+	}
 }
 
 .content 
