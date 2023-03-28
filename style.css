@@ -119,7 +119,7 @@ header .toggle_btn{
     .dropdown_menu{
         display: block;
     }
-	.content h2, h3,p{
+	.content h2, .content h3,.content p{
 		display: none;
 	}
 	.men{
@@ -130,6 +130,9 @@ header .toggle_btn{
 	.mobile-header{
 		display: block;
 		max-width: 500px;
+	}
+	.container .card, .banner2 .services{
+		display: none;
 	}
 }
 
@@ -329,7 +332,6 @@ section.night .sci li a
 	height: 180px;
 	background: #333;
 	transition: 0.5s;
-	
 }
 .card:hover 
 {
@@ -350,7 +352,7 @@ section.night .sci li a
 	left: 50%;
 	width: 600px;
 	height: 120px;
-	background: linear-gradient(transparent,#2196f3,#2196f3,#2196f3,transparent);
+	background: linear-gradient(transparent,#45f3ff,#45f3ff,#45f3ff,transparent);
 	animation: animate 4s linear infinite;
 	animation-play-state: paused;
 }
@@ -407,7 +409,7 @@ section.night .sci li a
 	width: 500px;
 	height: 150px;
 	transform: translate(-50%,-50%);
-	background: linear-gradient(transparent,#e91e63,#e91e63,#e91e63,transparent);
+	background: linear-gradient(transparent,#ff3c7b,#ff3c7b,#ff3c7b,transparent);
 	animation: animate2 6s linear infinite;
 	animation-play-state: paused;
 }
@@ -472,7 +474,7 @@ section.night .sci li a
 {
 	font-size: 1.5em;
 	font-weight: 500;
-	color: #e91e63;
+	color: #45f3ff;
 	line-height: 1.2em;
 }
 .card .content .details p 
@@ -498,7 +500,6 @@ section.night .sci li a
 {
 	opacity: 1;
 }
-
 /* -------SKILLS----------- */
 
 .skills{
