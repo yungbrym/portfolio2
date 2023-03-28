@@ -112,6 +112,41 @@ header .toggle_btn{
 .mobile-header{
 	display: none;
 }
+
+h1 .test1{
+	position: relative;
+	font-size: 2.5rem;
+	color: #252263;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.2vw #334d51;
+	}
+	h1 .test1::before{
+		content: attr(data-text);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 0%;
+		height: 100%;
+		color: aquamarine;
+		-webkit-text-stroke: #334d51;
+		border-right: 1px solid greenyellow;
+		overflow: hidden;
+		animation: animate 5s linear infinite;
+	
+	}
+	
+	@keyframes animate
+	{
+		0%{
+			width: 0;
+		}
+		60%, 65%{
+			width: 100%;
+		}
+	}
+	
+	
+	
 @media(max-width:990px){
     header ul, .colors, .men{
         display: none;
